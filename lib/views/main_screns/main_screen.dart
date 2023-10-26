@@ -20,10 +20,10 @@ class _MainScreenState extends State<MainScreen> {
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: InkWell(
         onTap: () {},
-        child: CircleAvatar(
+        child: const CircleAvatar(
           radius: 34,
           backgroundColor: Color.fromARGB(255, 237, 237, 237),
-          child: const CircleAvatar(
+          child: CircleAvatar(
             radius: 26,
             backgroundColor: CustomColors.buttonColor1,
             child: Icon(
